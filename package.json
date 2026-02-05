@@ -1,0 +1,52 @@
+{
+  "name": "vibe-score",
+  "version": "1.0.0",
+  "description": "🎮 Are you a Vibe Coder? 测试你对自己代码的记忆程度",
+  "type": "module",
+  "bin": {
+    "vibe-score": "./index.tsx"
+  },
+  "scripts": {
+    "start": "bun run index.tsx",
+    "dev": "bun --watch index.tsx"
+  },
+  "files": [
+    "index.tsx",
+    "README.md"
+  ],
+  "dependencies": {
+    "@inkjs/ui": "^2.0.0",
+    "ink": "^5.1.0",
+    "ink-spinner": "^5.0.0",
+    "react": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/react": "^18.3.18"
+  },
+  "keywords": [
+    "cli",
+    "tui",
+    "git",
+    "vibe-coding",
+    "ai",
+    "copilot",
+    "memory",
+    "code-review",
+    "developer-tools",
+    "fun"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/你的用户名/vibe-score.git"
+  },
+  "bugs": {
+    "url": "https://github.com/你的用户名/vibe-score/issues"
+  },
+  "homepage": "https://github.com/你的用户名/vibe-score#readme",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
