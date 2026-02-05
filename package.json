@@ -1,6 +1,6 @@
 {
   "name": "vibe-score",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "🎮 Are you a Vibe Coder? 测试你对自己代码的记忆程度",
   "type": "module",
   "bin": {

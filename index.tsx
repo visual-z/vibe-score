@@ -236,10 +236,14 @@ function isSimilarSnippet(a: string[], b: string[]): boolean {
 // Git Utilities
 // ============================================================================
 
+// 获取用户当前工作目录
+const CWD = process.cwd();
+
 async function runGit(args: string[]): Promise<string> {
   const proc = Bun.spawn(["git", ...args], {
     stdout: "pipe",
     stderr: "pipe",
+    cwd: CWD,  // 关键：指定在用户当前目录执行
   });
 
   const output = await new Response(proc.stdout).text();
